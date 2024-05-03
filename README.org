@@ -1,0 +1,9 @@
+#+title: README
+
+* PCRE support for grep on OSX
+
+#+begin_src shell
+brew uninstall ripgrep
+brew install rust
+cargo install --features pcre2 ripgrep
+#+end_src
